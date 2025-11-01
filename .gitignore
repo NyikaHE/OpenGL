@@ -55,3 +55,18 @@ compile_commands.json
 *creator.user*
 
 *_qmlcache.qrc
+001_OpenGLWidget_HelloWidget/001_HelloWidget/debug/001_HelloWidget.tlog
+*.user
+*.stash
+*.qtvscr
+Project/QTOpenGL/.vs
+048_3D_Move_camera/release
+048_3D_Move_camera/debug
+011_QOpenGLShaderProgram/release
+011_QOpenGLShaderProgram/debug
+005_Two_triangle_exercise/release
+005_Two_triangle_exercise/debug
+001_OpenGLWidget_HelloWidget/001_HelloWidget/release
+001_OpenGLWidget_HelloWidget/001_HelloWidget/debug
+Project/QTOpenGL/QTOpenGL/.vs
+Project/.vs

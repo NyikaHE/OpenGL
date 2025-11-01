@@ -92,7 +92,7 @@ FoxOpenGLWidget::FoxOpenGLWidget(QWidget *parent) : QOpenGLWidget(parent)
     connect(&this->timer_, SIGNAL(timeout()),
             this, SLOT(rotate()));
 
-    this->time_.start();
+    // this->time_.start();
 
     /* 摄像机 */
     this->camera_pos_ = QVector3D(0.0f, 0.0f, 2.0f);
@@ -279,7 +279,7 @@ void FoxOpenGLWidget::paintGL()
     this->shader_program_.setUniformValue("mat_projection", mat_projection);
 
     const float radius = 10.0f;
-    float time = this->time_.elapsed() / 1000.0;  // 注意是 1000.0
+    float time = this->time_.second() / 1000.0;  // 注意是 1000.0
     float cam_x = sin(time) * radius;
     float cam_z = cos(time) * radius;
 

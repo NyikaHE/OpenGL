@@ -1,12 +1,12 @@
 #ifndef FOXOPENGLWIDGET_H
 #define FOXOPENGLWIDGET_H
 
-#include <QOpenGLWidget>  // 相当于GLFW
-#include <QOpenGLFunctions_4_5_Core>  // 相当于 GLAD
-#include <QOpenGLShaderProgram>
+#include <QtOpenGLWidgets\QOpenGLWidget>  // 相当于GLFW
+#include <QtOpenGL\QOpenGLFunctions_4_5_Core>  // 相当于 GLAD
+#include <QtOpenGL\QOpenGLShaderProgram>
 #include <QTimer>
 #include <QTime>
-#include <QOpenGLTexture>
+#include <QtOpenGL\QOpenGLTexture>
 
 class FoxOpenGLWidget : public QOpenGLWidget, QOpenGLFunctions_4_5_Core
 {

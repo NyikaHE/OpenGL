@@ -1,8 +1,8 @@
 #ifndef AXBOPENGLWIDGET_H
 #define AXBOPENGLWIDGET_H
 
-#include <QOpenGLWidget>  // 相当于GLFW
-#include <QOpenGLFunctions_4_5_Core>  // 相当于 GLAD
+#include <QtOpenGLWidgets\QOpenGLWidget>  // 相当于GLFW
+#include <QtOpenGL\QOpenGLFunctions_4_5_Core>  // 相当于 GLAD
 
 class AXBOpenGLWidget : public QOpenGLWidget, QOpenGLFunctions_4_5_Core
 {
